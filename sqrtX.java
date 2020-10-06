@@ -3,7 +3,20 @@ import java.util.*;
 import java.lang.Math;
 
 public class sqrtX {
+    /*
+    Given an integer N: without using any built-in sqrt functions, return floor(sqrt(N)).
 
+    Input Format
+
+    Input consists of a single integer .
+
+    Constraints
+    1 <= N <= 10^18
+
+    Output Format
+
+    Output a single integer: floor(sqrt(N))
+    */
     public static void main(String[] args) throws IOException{
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         FastReader in = new FastReader();
