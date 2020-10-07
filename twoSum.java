@@ -7,6 +7,8 @@ public class twoSum{
 
     You can return the answer in any order.
     */  
+
+    //faster than 99.94% of submissions
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int a = 0; a < nums.length; a++) {
